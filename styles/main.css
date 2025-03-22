@@ -718,6 +718,7 @@ body {
   align-items: center;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .footer-social-item-text {
   font-size: 48px;
@@ -725,6 +726,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: black;
 }
 .footer-social-item-logo {
   width: 80px;
