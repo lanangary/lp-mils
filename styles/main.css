@@ -648,7 +648,7 @@ body {
 }
 .grid-collection-item.grid-4 .grid-collection-item-info-pre-heading {
   font-size: 35px;
-  font-size: clamp(40px, 3.8194444444vw, 55px);
+  font-size: clamp(44px, 3.8194444444vw, 55px);
 }
 .grid-collection-item.grid-4 .grid-collection-item-info-heading {
   font-size: 85px;
