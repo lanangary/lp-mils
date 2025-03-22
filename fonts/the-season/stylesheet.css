@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsLightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsLightRegular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - The Seasons';
+    src: url('FONTSPRINGDEMO-TheSeasonsRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
