@@ -90,7 +90,7 @@ function handleProductClick() {
       // get the price .new-collection-list-item-info-price
       const price = item.querySelector('.new-collection-list-item-info-price').textContent;
     //  goto wa me link
-    window.open('https://wa.me/6281234567890?text=Halo%20saya%20ingin%20memesan%20' + name + '%20dengan%20harga%20' + price, '_blank');
+    window.open('https://wa.me/6285737139455?text=Halo%20saya%20ingin%20memesan%20' + name + '%20dengan%20harga%20' + price, '_blank');
 
     
     });
