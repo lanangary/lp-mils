@@ -77,9 +77,30 @@ function renderBestSellers(products) {
     `).join('');
 }
 
+function handleProductClick() {
+    
+    console.log('rendered go');
+  // if this element clicked new-collection-list-item
+  const newCollectionList = document.querySelectorAll('.new-collection-list-item');
+  newCollectionList.forEach(function(item) {
+    item.addEventListener('click', function() {
+      console.log('clicked');
+      // get the name .new-collection-list-item-info-heading roboto-mono
+      const name = item.querySelector('.new-collection-list-item-info-heading').textContent;
+      // get the price .new-collection-list-item-info-price
+      const price = item.querySelector('.new-collection-list-item-info-price').textContent;
+    //  goto wa me link
+    window.open('https://wa.me/6281234567890?text=Halo%20saya%20ingin%20memesan%20' + name + '%20dengan%20harga%20' + price, '_blank');
+
+    
+    });
+  });
+}
+
 // Initialize products when the page loads
 document.addEventListener('DOMContentLoaded', async () => {
     const products = await fetchProducts();
     renderProducts(products);
     renderBestSellers(products);
+    handleProductClick();
 }); 
