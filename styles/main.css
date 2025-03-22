@@ -732,7 +732,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .footer-social-item-logo {
-    width: auto;
+    width: 40px;
     height: 40px;
   }
 }
